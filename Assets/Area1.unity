@@ -1208,7 +1208,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1795441750572142, guid: 93f15056a62b79346aafa55805de2b33, type: 3}
       propertyPath: m_Name
-      value: Key
+      value: Key1
       objectReference: {fileID: 0}
     - target: {fileID: 4684060711274288, guid: 93f15056a62b79346aafa55805de2b33, type: 3}
       propertyPath: m_RootOrder
@@ -1257,7 +1257,12 @@ PrefabInstance:
     - target: {fileID: 58802698708281874, guid: 93f15056a62b79346aafa55805de2b33,
         type: 3}
       propertyPath: m_Radius
-      value: 5
+      value: 0.3935852
+      objectReference: {fileID: 0}
+    - target: {fileID: 58802698708281874, guid: 93f15056a62b79346aafa55805de2b33,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 199254325275108246, guid: 93f15056a62b79346aafa55805de2b33,
         type: 3}
@@ -24088,10 +24093,10 @@ MonoBehaviour:
   inventoryKey: 
   layers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8192
   disableOnEnter: 0
   collider: {fileID: 2015610837}
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: d76c71e98617e1c41a5cdc490eb1bee1, type: 3}
   dataSettings:
     dataTag: c70e966c-6f58-49db-b8fd-fbe93436d961
     persistenceType: 3
